@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,700i&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #333e50;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #333e50 !important;
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff;
+}
+#hero{
+	background-image: url("../img/bg-hero.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 10% 0;
+	color: #fff;
+}
+#hero h1 {
+	color: #fff;
+	font-size: 55px;
+	font-weight: 700;
+	margin-top: 10%;
+	font-family: 'Montserrat';
+}
+#hero h2 {
+	color: #72b529;
+	font-size: 55px;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	
+}
+#hero p{
+	color: #fff;
+	font-size: 22px
+}
+.btn-verde{
+	background-color: #72b529;
+	color: #fff;
+	font-size: 16px;
+	border: 0;
+	padding: 10px 40px;
+	font-weight: 300;
+	border-radius: 20px;
+	font-family: 'Roboto';
+}
+.btn-verde:hover{
+	background-color: #fff;
+	color: #72b529;
+	font-size: 16px;
+	font-family: 'Roboto';
+	border: thin solid;
+}
+.btn-transparente{
+	background-color: rgba(39,199,154,0.00);
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 40px;
+	border: thin solid;
+	font-weight: 300;
+	border-radius: 20px;
+	text-transform: capitalize;
+}
+.btn-transparente:hover{
+	background-color: rgba(39,199,154,0.00);
+	color: #72b529;
+	font-size: 16px;
+}
+.section{
+	padding: 80px 0;
+}
+.title{
+	font-size: 45px;
+	color: #222222;
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: 'Montserrat';
+}
+.subtitle{
+	font-size: 40px;
+	color: #222222;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 40px;
+	font-family: 'Montserrat';
+}
+.text{
+	font-size: 17px;
+	color: #333e50;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+#features{
+	background-color: #fff;
+	font-family: 'Roboto';
+	color: #898989;
+}
+.info i{
+	color: #72b529;
+	font-size: 30px;
+}
+.info h4{
+	color: #898989;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.info p{
+	font-size: 16px;
+	margin-left: 0px;
+	color: #898989;
+}
+.info:first-child{
+	margin-top: 60px;
+}
+#features .info-row{
+	margin-top: 100px;
+}
+#choose{
+	padding-top: 0px;
+}
+#choose p{
+	font-family: 'Roboto';
+	font-weight: 100;
+}
+#choose .cuadro {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Montserrat';
+}
+#choose #cuadronegro {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	background-color: #222222;
+	color: #fff;
+	padding: 50px;
+}
+#choose #cuadroverde {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	background-color: #72b529;
+	color: #fff;
+	padding: 50px;
+}
+#choose #cuadroverdeoscuro {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	background-color:  #5D971D;
+	color: #fff;
+	padding: 50px;
+}
+#results{
+	font-family: 'Roboto';
+}
+#results h3{
+	text-align: left;
+}
+#iconos{
+	padding-top: 0;
+}
+#cinco{
+	background-color: #E9E9E9;
+}
+#cinco .padding{
+	margin-left: 3%;
+}
+#quote{
+	background-image: url("../img/bg-testi.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 400px;
+}
+#quote p{
+	color: #fff;
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'Roboto';
+}
+#verde p{
+	background-color:#72b529;
+	padding: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Roboto';
+}
+#verde .btn-transparente{
+	border-radius: 0px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+#subscribe{
+	background-color: #222222;
+	color: #fff;
+}
+#subscribe #mc_embed_signup_scroll .btn-verde{
+	margin-top: 5%;
+}
+footer{
+	background-color: #3d3f3e;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+}
